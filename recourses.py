@@ -58,3 +58,5 @@ VISOTA = 1040
 volume_buttons = [button_0, button_10, button_20, button_30, button_40, button_50, button_60, button_70, button_80,
                   button_90, button_100]
 point_value = [button_0, button_1, button_2, button_3, button_4, button_5, button_6, button_7, button_8, button_9]
+play_2_image.set_colorkey((255, 255, 255))
+play_3_image.set_colorkey((255, 255, 255))

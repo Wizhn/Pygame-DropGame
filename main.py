@@ -189,7 +189,7 @@ def start_game():
         sprite_group.update()
         sprite_group.draw(screen)
         pygame.display.flip()
-        if 15 - (current_time - time_start) <= 0:
+        if 180 - (current_time - time_start) <= 0:
             global player_points
             player_points = player.points
             running = False
